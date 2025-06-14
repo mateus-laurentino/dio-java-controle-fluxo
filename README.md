@@ -1,15 +1,22 @@
 # Controle de Fluxo - Desafio
 
 ### Sobre
-Neste desafio foi proposto criar um programa que receba um numero inicial e um número final.<br/>
-Recebido os dois numeros devo validar se o segundo numero é menor ou igual ao primeiro e apartir disso, validar qual cenario será executado
 
-- **Caso numero fnial seja menor ou igual:**<br>
-  - retornar a mensagem gerado na classe customizada de exception.
+Neste desafio, foi proposto criar um programa que receba um número inicial e um número final.
+Após receber os dois números, deve-se validar se o número final é menor ou igual ao número inicial e, a partir disso, determinar qual cenário será executado:
 
-- **Caso numero final seja maior que numero inicial**:<br>
-  - Imprimir no console o numero de interações que existe do numero inicial até o final 
+* **Caso o número final seja menor ou igual ao número inicial:**
 
+  * Deve ser lançada uma exceção com a mensagem definida em uma classe customizada.
+
+* **Caso o número final seja maior que o número inicial:**
+
+  * O programa deve imprimir no console a quantidade de interações existentes do número inicial até o número final.
+
+---
 
 ### Identidade
-Como identidade, adicionei metodos para facilitar o entendimento e retorno as mensagem como uma coluna, indicando o inicio e o fim de cada operação. 
+
+Como forma de identidade, adicionei métodos para facilitar o entendimento e organizei as mensagens como colunas, indicando o início e o fim de cada operação.
+
+---
